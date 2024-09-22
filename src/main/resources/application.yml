@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SpringAI
+  ai:
+    openai:
+      api-key: wilfredkey
+      chat:
+        options:
+          model: gpt-4o-mini
+
+server:
+  port: 8999
+
+
