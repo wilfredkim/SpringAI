@@ -7,8 +7,12 @@ spring:
       chat:
         options:
           model: gpt-4o-mini
+    ollama:
+      chat:
+        model: llama3.2
 
 server:
   port: 8999
+
 
 
